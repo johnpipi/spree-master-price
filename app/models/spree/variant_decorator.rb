@@ -1,6 +1,6 @@
 module Spree
   Variant.class_eval do
-    attr_accessible :use_master_price
+    #attr_accessible :use_master_price
     def price
       return product.master.price if use_master_price? && !is_master?
       self[:price]
