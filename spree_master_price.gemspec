@@ -2,10 +2,10 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_master_price'
-  s.version     = '1.0.rc1'
+  s.version     = '>= 2.0.0'
   s.summary     = 'Simple extension to use the product\'s master price on variants.'
   s.description = 'With this extension you can enable each product\'s variant to use the product\'s master price.'
-  s.required_ruby_version = '>= 1.8.7'
+  s.required_ruby_version = '>= 1.9.3'
 
   s.author    = 'Marcio Lima'
   s.email     = 'mdlima.github@mailnull.com'
