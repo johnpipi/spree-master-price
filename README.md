@@ -1,21 +1,11 @@
 SpreeMasterPrice
 ================
 
-Introduction goes here.
+Simple extension to use the product's master price on variants.
+With this extension you can enable each product's variant to use the product's master price.
 
-
-Example
+Usage
 =======
 
-Example goes here.
+gem 'spree_master_price', github: 'johnpipi/spree-master-price', branch: 'master'
 
-Testing
--------
-
-Be sure to bundle your dependencies and then create a dummy test app for the specs to run against.
-
-    $ bundle
-    $ bundle exec rake test_app
-    $ bundle exec rspec spec
-
-Copyright (c) 2012 [name of extension creator], released under the New BSD License

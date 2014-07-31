@@ -7,16 +7,16 @@ Gem::Specification.new do |s|
   s.description = 'With this extension you can enable each product\'s variant to use the product\'s master price.'
   s.required_ruby_version = '>= 1.9.3'
 
-  s.author    = 'Marcio Lima'
-  s.email     = 'mdlima.github@mailnull.com'
-  s.homepage  = 'http://github.com/mdlima/spree_master_price'
+  s.author    = 'John Peterson'
+  s.email     = 'johnpipi@gmail.com'
+  s.homepage  = 'http://github.com/johnpipi/spree_master_price'
 
   #s.files       = `git ls-files`.split("\n")
   #s.test_files  = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency 'spree_core', '>= 2.0.0'
+  s.add_dependency 'spree_core', '~> 2.3.0.beta'
 
   s.add_development_dependency 'capybara', '1.0.1'
   s.add_development_dependency 'factory_girl', '~> 2.6.4'
